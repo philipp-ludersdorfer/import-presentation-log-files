@@ -7,7 +7,7 @@ The function returns the cell structure LOG (one cell per logfile) which contain
 Usage: import_pres_log(LOGFILES, START)
 
 - where LOGFILES is a string and either the name of a single log file (e.g. 'exp1_s01.log') or the name of a directory containing one or more log files (e.g. '/Users/P/Documents/'),
-- and START (optional) is a string that corresponds to the value of the "Event Type" column of the beginning line of the experiment (e.g. 'Start'). Preceding lines are discarded for EVENT, CODE, and TIME. The default is to start with the first line after the column names.
+- and START (optional) is a string that corresponds to the value of the row in the "Event Type" column that indicates the beginning of the experiment (e.g. 'Start'). Preceding lines are discarded for EVENT, CODE, and TIME. The default is to start with the first line after the column names.
 
 
 
